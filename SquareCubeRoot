@@ -1,0 +1,12 @@
+import java.lang.Math;
+class SqCuRoot{
+ public static void main(String[]args)
+  {
+     System.out.println("Enter the number for which cube root and square root is to be calculated");
+     int num=Integer.parseInt(System.console().readLine());//taking input from user
+     double squarert=Math.sqrt(num);//calculating square root
+     double cubert=Math.cbrt(num);//calculating cube root
+     System.out.println("Square root of "+num+" is :"+squarert); 
+     System.out.println("Cube root of "+num+" is :"+cubert);
+  }
+}
